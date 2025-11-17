@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percabangan (if-else)</title>
+</head>
+<body>
+    <p>Keterangan: <br>
+  1. Contoh Menentukan genap/ganjil. <br>
+  2. meminta nilai dan menampilkan 'LULUS' jika nilai >= 70, selain itu tampil 'BELUM LULUS'.<br>
+  3. program dengan usia: <13 Anak-anak, 13-17 Remaja, >=18 Dewasa (gunakan if else if). <br></p>
+    <script>
+        document.write("<br> Hasil:");
+        let angka = parseInt(prompt("Masukkan sebuah angka:"));
+    if (angka % 2 === 0) {
+        alert("Angka genap");
+        document.write("<br> 1. " + angka + " adalah angka genap");
+    } else {
+        alert("Angka ganjil");
+        document.write("<br> 1. " + angka + " adalah angka ganjil");
+    }
+
+        let nilai = parseInt(prompt("Masukan sebuah nilai"));
+    if (nilai >= 70) {
+        alert("LULUS");
+        document.write("<br> 2. nilai " + nilai + " LULUS");
+    } else {
+        alert("BELUM LULUS");
+        document.write("<br> 2. nilai " + nilai + " BELUM LULUS");
+    }
+
+        let usia = parseInt(prompt("Masukan usia"));
+    if (usia < 13) {
+        alert("Anak-anak");
+        document.write("<br> 3. usia " + usia + " adalah Anak-anak");
+    } else if (usia <= 17) {
+        alert("Remaja");
+        document.write("<br> 3. usia " + usia + " adalah Remaja");
+    } else if (usia >= 18) {
+        alert("Dewasa");
+        document.write("<br> 3. usia " + usia + " adalah Dewasa");
+    }
+
+    /*Jelaskan perbedaan antara if dan else if
+    =if adalah kode atau kondisi yang dijalankan pertama kali, sedangkan else if adalah kode yang dijalankan ketika kondisi if atau else if lainnya belum terpenuhi
+    Apa yang terjadi bila semua kondisi salah?
+    =maka akan melewati dan melanjutkan kepada kondisi if yang seterusnya
+*/
+    </script>
+</body>
+</html>
