@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Variabel, Tipe Data, Input/Output & Operator (Review)</title>
+  </head>
+  <body>
+    <p>Keterangan: <br>
+  1. Contoh deklarasi variabel dan menampilkan hasil. <br>
+  2. Nama kalian menggunakan document.write(). <br>
+  3. Meminta umur, lalu tampilkan 'Umur saya X tahun' menggunakan alert(). <br>
+  4. Perhitungan sederhana: minta dua angka lalu tampilkan hasil penjumlahan. <br></p>
+    <script>
+      document.write("<br> Hasil:")
+      let nama = "Rizal";
+      let umur = 16;
+      let isStudent = true;
+      console.log(nama, umur, isStudent);
+      document.write("<br> 1. Halo, nama saya " + nama + ", umur saya " + umur);
+
+      let namasaya = "Muhammad Rizalaludin Al Fatih"
+      document.write("<br> 2. " + namasaya);
+
+      let umursaya =parseInt(prompt("Masukan umur kamu"));
+      alert("Umur saya " + umursaya + " tahun")
+      document.write("<br> 3. Umur saya " + umursaya + " tahun");
+      
+      let angka1 =parseInt(prompt("Angka Pertama"));
+      let angka2 =parseInt(prompt("Angka Kedua"));
+      document.write("<br> 4. Jadi, hasil penjumlahan dari " + angka1 + " dengan " + angka2 + " adalah " + (angka1 + angka2));
+      /*
+    Apa itu variabel dan mengapa penting?
+    =Variabel adalah sebuah nama yang mewakili sebuah nilai. Variabel bisa diisi dengan berbagai macam nilai seperti string (teks), number (angka), objek, array, dan sebagainya. Karena tanpa variabel, akan lebih meresahkan jika ingin menggantikan sebuah nilai
+    Berikan contoh situasi sehari-hari yang mirip dengan variabel
+    =misalnya absen di sekolah, absen pertama adalah Ali, jadi jika absen pertama dipanggil, maka Ali akan mengacungkan tangan
+    */
+    </script>
+  </body>
+</html>
