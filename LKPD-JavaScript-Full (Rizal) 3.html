@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perulangan (Loop)</title>
+</head>
+<body>
+    <p>Keterangan: <br>
+  1. Contoh for dan while. <br>
+  2. Menjumlahkan angka 1 sampai 10 menggunakan for. <br>
+  3. Tampilkan bilangan genap dari 2 sampai 20 menggunakan perulangan. <br></p>
+    <script>
+        for (let i = 1; i <= 10; i++) {
+            console.log(i);
+            let hasil1 = i + ", ";
+        }
+        let hitung = 1;
+        while (hitung <= 5) {
+            console.log("Perulangan ke-" + hitung);
+            hitung++;
+            let hasil2 = ("<br> Perulangan ke-" + hitung);
+        }   
+
+        let total = 0;
+        for (let i = 1; i <= 10; i++) {
+            total = total + i;
+        }
+        alert("Hasil penjumlahannya adalah " + total);
+        
+        for (let i = 2; i <=20; i += 2) {
+            document.write(i + ", ");
+        }
+    /*
+    Kapan lebih cocok menggunakan for daripada while?
+    =Perulangan for adalah metode iterasi yang paling baik digunakan jika Anda sudah mengetahui jumlah iterasinya. Dalam JavaScript, perulangan ini biasanya diikuti oleh pernyataan inisialisasi, ekspresi, dan kenaikan ketika didefinisikan.
+    Apa manfaat perulangan dibanding menulis perintah berulang kali?
+    =Kita dapat menghemat waktu dan usaha dalam menulis kode yang harus dijalankan berulang kali, terutama ketika jumlah perulangannya banyak atau tidak diketahui sebelumnya.
+*/
+    </script>
+</body>
+</html>
