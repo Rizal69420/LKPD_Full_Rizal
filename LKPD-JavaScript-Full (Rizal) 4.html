@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fungsi (function)</title>
+    <p>Keterangan: <br>
+  1. Contoh dengan parameter & return. <br>
+  2. Fungsi hitung LuasPersegi(sis) yang emengembalikan luas persegi. <br>
+  3. Fungsi yang menerima nama dan menampilkan sapaan. <br></p>
+</head>
+<body>
+    <script>
+        // Nomor 1
+        function tambah(a, b) {
+            return "1. " + (a + b) + ", (Penjumlahan dari " + a + " dan " + b + ")";
+        }
+        let hasiltambah = tambah(3,5);
+        console.log(hasiltambah);
+        document.write(hasiltambah)
+        // Nomor 2
+        function hitungLuasPersegi(s, s) {
+            return "<br> 2. " + (s * s) + ", (Rumus luas Persegi adalah s*s)"
+        }
+        let hasil = hitungLuasPersegi(3, 3)
+        console.log(hasil);
+        document.write(hasil);
+        // Nomor 3
+        function sapa(nama) {
+            if (nama) {
+            return "<br> 3. Halo, Selamat datang " + nama + "!"
+        }}
+        let userName= "Rizal";
+        let sapaan = sapa(userName);
+        alert(sapaan)
+        document.write(sapaan);
+        /*
+        Mengapa fungsi membuat kode lebih efisien?
+        =dengan membagi tugas, mempermudah pemakaian ulang, mempermudah abstraksi dan mempermudah dokumentasi, menggunakan fungsi tambahan dalam program dapat membuat kode lebih mudah dimengerti dan lebih efisien.
+        Apa perbedaan antara parameter dan return?
+        =-Parameter: Memungkinkan fungsi menerima input yang berbeda setiap kali dipanggil, meningkatkan fleksibilitas dan reusabilitas. Jangan lupa tentang nilai default dan type hinting untuk kode yang lebih kuat.
+        -Return Value: Memungkinkan fungsi menghasilkan output yang bisa digunakan oleh bagian lain dari program, memisahkan logika pemrosesan dari tampilan.
+        */
+    </script>
+</body>
+</html>

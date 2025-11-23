@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulasi DOM</title>
+    <p id="paragraf">Mengubah Teks Paragraf Menjadi Merah</p>
+    <button onclick="Ubahwarna ()">Ubah Warna</button>
+
+    <div id="elemen"></div>
+    <button onclick="baru ()">Elemen Baru</button>
+</head>
+<body>
+    <script>
+        function Ubahwarna () {
+            document.getElementById("paragraf").style.color = "red";
+        }
+
+        function baru () {
+            document.getElementById("elemen").innerHTML = "Baru"
+        }
+        /*
+        Apa fungsi document.getElementById()?
+        =mengembalikan elemen dengan nilai yang ditentukan
+        Bagaimana cara menambah elemen baru ke halaman?
+        = dengan mengetikan <tag> dengan penutupnya yaitu ditambahkan "/" seperti </tag>
+        */
+    </script>
+</body>
+</html>
