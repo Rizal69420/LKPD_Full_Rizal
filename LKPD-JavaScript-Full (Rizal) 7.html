@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+    <p>Keterangan: <br>
+      1. <br>
+      2. Buat tombol 'Sembunyikan' yang menyembunyikan sebuah paragraf saat diklik. <br>
+      3. Buat input teks yang menampilkan hasil live (oninput) ke elemen <br>
+    </p>
+</head>
+<body>
+    <p id="para">Paragraf ini akan disembunyikan</p>
+    <button onclick="sembunyikan()">Sembunyikan</button>
+    
+    <br><br>
+    
+    <input type="text" placeholder="Test" oninput="tampilLive(this.value)">
+    <p id="hasil"></p>
+    
+    <script>
+        function sembunyikan() {
+    document.getElementById("para").style.display = "none";
+}
+        
+        function tampilLive(text) {
+          document.getElementById("hasil").textContent = text;
+        }
+    /*
+    Apa perbedaan onclick dan onmouseover?
+    = onclick terjadi ketika elemen diklik sedangkan onmouseover terjadi ketika cursor memasuki area elemen
+    Mengapa event penting untuk interaktivitas?
+    = karena event memungkinkan hal-hal seperti ini;
+    1. tombol yang bereaksi saat diklik
+    2. teks yang muncul saat mengetik
+    3. validasi form saat user mengetik atau menekan tombol
+*/
+    </script>
+</body>
+</html>
