@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <p>Keterangan: <br>
+  1. Tambahkan validasi panjang password minimal 8 karakter. <br>
+  2. Tambahkan feedback langsung di halaman (gunakan innerHTML) alih-alih alert. <br></p>
+    <h3>Form Pendaftaran Sederhana</h3>
+    <input type="text" id="nama" placeholder="Nama lengkap"><br><br>
+    <input type="email" id="email" placeholder="Email"><br><br>
+    <input type="password" id="password" placeholder="Kata sandi"><br><br>
+    <button onclick="validasi()">Daftar</button>
+    <p id="feedback" style="color:red; font-weight:bold;"></p>
+<script>
+            function validasi() {
+        let nama = document.getElementById("nama").value;
+        let email = document.getElementById("email").value;
+        let pass = document.getElementById("password").value;
+    if (nama === "" || email === "" || pass === "") {
+    feedback.innerHTML = "Semua kolom wajib diisi!";
+    } else if (pass.length < 8) {
+    feedback.innerHTML = "Password harus minimal 8 karakter!";
+    } else if (!email.includes("@")) {
+    feedback.innerHTML = "Email tidak valid!";
+    } else {
+    feedback.innerHTML = "Pendaftaran berhasil!";
+ }
+ }
+ /*
+ Mengapa validasi penting sebelum data dikirim ke server?
+ =  1. Mencegah Error di server
+    2. Melindungi sistem dari serangan
+    3. Menghemat resource server
+    4. Memberikan feedback cepat ke pengguna
+    5. Menjaga integritas data
+    
+ Apa risiko jika tidak melakukan validasi?
+ =  1. Serangan keamanan
+    2. Data tidak valid masuk ke sistem
+    3. Kerusakan atau Error pada server
+    4. Boros resource server
+    5. Pengalaman pengguna sangat buruk
+    6. Risiko legal/privasi
+ */
+ </script>
+</body>
+</html>
