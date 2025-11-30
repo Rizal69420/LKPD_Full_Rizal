@@ -1,1 +1,9 @@
-
+[LKPD 1] (https://rizal69420.github.io/LKPD_Full_Rizal/LKPD-JavaScript-Full%20(Rizal)%201.html) <br>
+[LKPD 2] (https://rizal69420.github.io/LKPD_Full_Rizal/LKPD-JavaScript-Full%20(Rizal)%202.html) <br>
+[LKPD 3] (https://rizal69420.github.io/LKPD_Full_Rizal/LKPD-JavaScript-Full%20(Rizal)%203.html) <br>
+[LKPD 4] (https://rizal69420.github.io/LKPD_Full_Rizal/LKPD-JavaScript-Full%20(Rizal)%204.html) <br>
+[LKPD 5] (https://rizal69420.github.io/LKPD_Full_Rizal/LKPD-JavaScript-Full%20(Rizal)%205.html) <br>
+[LKPD 6] (https://rizal69420.github.io/LKPD_Full_Rizal/LKPD-JavaScript-Full%20(Rizal)%206.html) <br>
+[LKPD 7] (https://rizal69420.github.io/LKPD_Full_Rizal/LKPD-JavaScript-Full%20(Rizal)%207.html) <br>
+[LKPD 8] (https://rizal69420.github.io/LKPD_Full_Rizal/LKPD-JavaScript-Full%20(Rizal)%208.html) <br>
+[LKPD 9] (https://rizal69420.github.io/LKPD_Full_Rizal/LKPD-JavaScript-Full%20(Rizal)%209.html) <br>
